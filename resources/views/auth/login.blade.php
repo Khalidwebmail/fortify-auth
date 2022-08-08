@@ -4,7 +4,7 @@
             <div class="col-3"></div>
             <div class="col-6">
                 <h3>Login yur account</h3>
-                <form method="post" action="">
+                <form method="post" action="{{route(login)}}">
                     @csrf
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
